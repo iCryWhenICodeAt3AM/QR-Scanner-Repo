@@ -6,8 +6,7 @@ myApp.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'views/scanner.html'
         })
         .when('/sheets', {
-            templateUrl: 'views/createsheet.html',
-            controller: 'QRCodeScannerController'
+            templateUrl: 'views/createsheet.html'
         })
         .otherwise({
             templateUrl: 'views/error404.html'
