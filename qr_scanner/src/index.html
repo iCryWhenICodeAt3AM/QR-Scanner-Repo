@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gdscApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDSC QR SCANNER V2.0 BETA</title>
+    <link rel="stylesheet" href="css/master.css">
+</head>
+<body ng-controller="QRCodeScannerController">
+    <!-- Header -->
+    <header ng-include="'header.html'"></header>
+
+    <!-- Views -->
+    <main ng-view></main>
+    <div>
+        <video id="camera"></video>
+        <p>Scanned QR code: <span id="result"></span></p>
+    </div>
+
+    <!-- Load AngularJS and Instascan -->
+    <script src="bower/angular/angular.js"></script>
+    <script src="bower/angular-route/angular-route.min.js"></script>
+    <script src="bower/instascan.min/index.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#menu-bar{
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+
+#menu-bar h2{
+    display:inline-block;
+    margin-right:10px;
+}
+
+#menu-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
